@@ -102,11 +102,29 @@
         </fieldset>
         <fieldset>
             <legend>Informacion adicional</legend>
-            <div>
+            
                 <label for="phone">telefono
                     <input type="tel" id="phone" name="phone" placeholder="3137312767" required  pattern="[0-9]{10}">
                 </label>
-            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Otros</legend>
+            <div>
+            <label for="why">¿Porque quieres contactar?</label>
+            <select name="why" id="why">
+                <option value="work">Ofrecer trabajo</option>
+                <option value="question">Hacer una pregunta</option>
+                <option value="more information">Mas informacion</option>
+            </select>
+        </div>
+        <div>
+            <label for="terms">¿Aceptas los terminos?</label>
+            <input type="checkbox" id="terms" name="terms" required>
+        </div>    
+        </fieldset>
+
+
             <input type="submit" value="Enviar">
     </form>
 </section>
