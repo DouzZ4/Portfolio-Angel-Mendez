@@ -27,10 +27,26 @@
         <a href="#contact">Contacto</a>
         <!--- Enlaces externos-->
         <a href="https://github.com/DouzZ4" target="_blank" rel="noreferrer">Github</a>
+        <button id="openDialog">👽</button>
     </nav>
 </header>
 
-<video style="width: 100%; aspect-ratio: 100/60;" controls autoplay loop muted src="/Video/Bog.mp4"></video>
+<dialog id="dialog">
+    <h2>👽 Bienvenido a mi Portfolio</h2>
+    <p>Este es mi portafolio personal donde muestro mis proyectos y mi experiencia en el mundo de la programacion</p>
+    <button id="Cerrar">Cerrar</button>
+</dialog>
+
+<script>
+    window.openDialog.addEventListener('click', () => {
+        window.dialog.showModal();
+    });
+    window.Cerrar.addEventListener('click', () => {
+        window.dialog.close();
+    });
+</script>
+
+<iframe style="width: 50%; aspect-ratio: 16/9;" src="https://www.youtube.com/embed/7XXu_-eoxHo?si=J3tYkOd0dDLXvSE_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <main>
 <p>
