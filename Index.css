@@ -1,0 +1,15 @@
+body {
+    background-color: #ECF0F1; /* Blanco */
+    background: linear-gradient(to right, #2C3E50, #3498DB, #1ABC9C);
+}
+h1 {
+    color: #FF00FF; /* Rosa Fucsia */
+    text-shadow: 0 0 5px #FF00FF, 0 0 10px #FF00FF, 0 0 20px #FF00FF, 0 0 30px #FF00FF, 0 0 40px;
+}
+nav a {
+    color: #3498DB; /* Azul Claro */
+}
+footer {
+    background-color: #BDC3C7; /* Gris Claro */
+    color: #2C3E50; /* Azul Marino */
+}
